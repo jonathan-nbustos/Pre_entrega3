@@ -10,7 +10,7 @@
 
 ## Pasos para ejecutar el proyecto
 
-- Link de GitHub: https://github.com/jonathan-nbustos/Coder2024
+- Link de GitHub: https://github.com/jonathan-nbustos/Pre_entrega3
 
 - Creación del entorno virtual: python -m venv .venv
 - Activar el entorno virtual: .\.venv\Scripts\activate
@@ -48,4 +48,5 @@
 - Colocar token sino da error.
 - Agregar boton tipo submit.
 - Crear el archivo form.py entro de core
-- Dentro de vista cargo importo forms y creo la funcion
+- Dentro de vista, cargo/importo forms y creo la funcion
+- Fin
