@@ -1,0 +1,12 @@
+{% extends 'core/base.html' %}
+
+{% block contenido %}
+    {% for curso in cursos  %}
+        <ul>
+            <li>
+                {{ curso.nombre }}
+                {{ curso.comision }}
+            </li>
+        </ul>
+    {% endfor %}
+{% endblock contenido %}

@@ -3,5 +3,11 @@
 {% block contenido %}
     <h1>Entrega_3</h1>
     <button><a href="{% url 'profesor_list' %}">Ver Profesores</a></button>
-    <button><a href="{% url 'profesor_create' %}">Crear Profesores</a></button>
+    <button><a href="{% url 'profesor_create' %}">Crear Profesor</a></button>
+
+    <button><a href="{% url 'estudiante_list' %}">Ver Estudiantes</a></button>
+    <button><a href="{% url 'estudiante_create' %}">Crear Estudiante</a></button>
+
+    <button><a href="{% url 'curso_list' %}">Ver Cursos</a></button>
+    <button><a href="{% url 'curso_create' %}">Crear Curso</a></button>
 {% endblock contenido %}
